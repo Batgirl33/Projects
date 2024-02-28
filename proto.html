@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+<title>Protofile</title>
+<link rel="stylesheet" type="text/css" href="st.css">
+<link rel="icon" type="image/x-icon" href="html (1).png">
+<script src="https://kit.fontawesome.com/6efb99a3ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+<img src="Batool_j.png" alt="logo" class="logo">
+<ul id="side-menu">
+    <li><a href=#header>Home</a></li>
+    <li><a href="#about">About me</a></li>
+    <li> <a href="#services">Experience</a></li>
+    <li><a href="#Protofilo">Projects</a></li>
+    <li><a href="#contact">contact</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>Web developer</p>
+    <h1>Hi ,<br>I'm <span>Batool</span> Jaffar</h1>
+</div>
+</div>
+</div>
+<!--About section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="White Gray Photo Work Quotes Desktop Wallpaper.png">
+                <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>I'm a computer information system student
+                 at IAU (imam Abdulraheman university) at Damamm
+                I found my passion to learn technology and computer 
+                latlely after I enrolled in chemstry
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Web developmnet</span><br>UI/UX</li>
+                        <li><span>App interfacess</span><br>Data analyst</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content" id="Experience">
+                    <ul>
+                        <li><span>2022-current</span><br>UI/UX learning</li>
+                        <li><span>2021</span><br>Data analyst</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                    <ul>
+                        <li><span>2026</span><br>Bechalore in computer information system at IAU</li>
+                        
+
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+<!---servicess section-->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="serv-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>
+                    Web design
+                </h2>
+                <p>I started learning the coures of desining webs in 
+                    colluge and I was intersetd about it 
+                    so, i desided to learn by self
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios fa-lg" style="color: #d56ee2;"></i>
+                <h2>
+                    UI/UX Design
+                </h2>
+                <p>I will ass this skill in my list to learn it sooon</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--protofilo-->
+<div id="Protofilo">
+   <div class="container" >
+    <h1 class="sub-title3">My work</h1>
+    <div class="work-list">
+        <div class="work">
+        <img src="wee.gif">
+        <div class="layer">
+            <h3>Social media app</h3>
+            <p>The app connects you to the talented people arount ths world.
+                Get it now!
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+ <div class="work">
+       <img src="ux.png">
+       <div class="layer">
+        <h3>UI/UX design </h3>
+        <p>Still i didn't learn it
+        </p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+        </div> 
+
+    </div>
+    <a href="#" class="btn">See More</a>
+   </div>
+</div>
+<!--contact-->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact</h1>
+                <p><i class="fa-solid fa-envelope" style="color: #ca43e5;"></i></i> Maidenx18@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #ca43e5;"></i> 05977883322</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/ "><i class="fa-brands fa-instagram"></i></a>
+                    <a href=" "><i class="fa-brands fa-telegram"></i></a>
+                    <a href=" "><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=" "><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href=""  download class="btn btn2"> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your name" required autofocus="onclick">
+<input type="email" name="Email" placeholder="example@gmail.com" required autofocus="onclick">
+<textarea name="Message" rows="6" placeholder="your message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <i class="fa-solid fa-heart"></i><p>copy-right for Batool Alsaffar </p>
+    </div>
+</div>
+<script>
+ var tablinks=document.getElementsByClassName("tab-links"); 
+ var tablcontents=document.getElementsByClassName("tab-content"); 
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tablcontent of tablcontents){
+        tablcontent.classList.remove("active-tab");
+    } 
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu=document.getElementById("side-menu");
+    function openmenu(){
+        sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwhhibdQDZV15Z_0P7CYqqUIGd8MP7DupflSQhPHRpjySn8UvlragLhvC0-92Rx4GRF/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="message sent successfuly"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
